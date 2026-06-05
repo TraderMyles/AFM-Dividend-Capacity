@@ -274,7 +274,7 @@ with col_dc:
     styled = dc_df.style.map(highlight_negatives, subset=["Value"])
     st.dataframe(styled, hide_index=True, width="stretch")
 
-    if row["notes"]:
+    if row["notes"] and pd.notna(row["notes"]):
         st.warning(f"Note: {row['notes']}")
 
     cap = row["dividend_capacity"]
