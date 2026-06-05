@@ -283,16 +283,16 @@ with col_dc:
 
     if cap is not None and actual is not None:
         if cap >= actual:
-            dc_interp = f"Standard dividend capacity of ${cap:,.0f}M covers actual dividends paid of ${actual:,.0f}M."
+            dc_interp = f"Standard dividend capacity of {cap:,.0f}M covers actual dividends paid of {actual:,.0f}M."
         elif adj is not None and adj >= actual:
             dc_interp = (
-                f"Standard dividend capacity of ${cap:,.0f}M falls short of actual dividends paid (${actual:,.0f}M), "
-                f"but adjusted capacity of ${adj:,.0f}M (excluding buybacks) is sufficient."
+                f"Standard dividend capacity of {cap:,.0f}M falls short of actual dividends paid ({actual:,.0f}M), "
+                f"but adjusted capacity of {adj:,.0f}M (excluding buybacks) is sufficient."
             )
         else:
             dc_interp = (
-                f"Both standard (${cap:,.0f}M) and adjusted (${adj:,.0f}M) dividend capacity fall short of "
-                f"actual dividends paid (${actual:,.0f}M), suggesting reliance on other funding sources."
+                f"Both standard ({cap:,.0f}M) and adjusted ({adj:,.0f}M) dividend capacity fall short of "
+                f"actual dividends paid ({actual:,.0f}M), suggesting reliance on other funding sources."
             )
         st.markdown(f"*{dc_interp}*")
 
