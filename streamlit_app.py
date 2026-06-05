@@ -121,7 +121,7 @@ fig_tsr.update_layout(
     xaxis=dict(zeroline=True, zerolinecolor="black", zerolinewidth=1),
 )
 
-st.plotly_chart(fig_tsr, use_container_width=True)
+st.plotly_chart(fig_tsr, width="stretch")
 
 st.divider()
 
@@ -173,7 +173,7 @@ fig_dc.update_layout(
     margin=dict(l=60, r=40, t=80, b=40),
 )
 
-st.plotly_chart(fig_dc, use_container_width=True)
+st.plotly_chart(fig_dc, width="stretch")
 
 st.divider()
 
@@ -203,7 +203,7 @@ with col_tsr:
         ],
     }
     tsr_df = pd.DataFrame(tsr_data)
-    st.dataframe(tsr_df, hide_index=True, use_container_width=True)
+    st.dataframe(tsr_df, hide_index=True, width="stretch")
 
     tsr_val = row["tsr"]
     if tsr_val > 15:
@@ -271,8 +271,8 @@ with col_dc:
             pass
         return ""
 
-    styled = dc_df.style.applymap(highlight_negatives, subset=["Value"])
-    st.dataframe(styled, hide_index=True, use_container_width=True)
+    styled = dc_df.style.map(highlight_negatives, subset=["Value"])
+    st.dataframe(styled, hide_index=True, width="stretch")
 
     if row["notes"]:
         st.warning(f"Note: {row['notes']}")
@@ -329,7 +329,7 @@ styled_table = (
         "Adj Capacity ($M)": "{:,.0f}",
         "Actual Divs Paid ($M)": "{:,.0f}",
     })
-    .applymap(style_negatives, subset=numeric_cols)
+    .map(style_negatives, subset=numeric_cols)
 )
 
-st.dataframe(styled_table, hide_index=True, use_container_width=True, height=500)
+st.dataframe(styled_table, hide_index=True, width="stretch", height=500)
