@@ -27,6 +27,15 @@ def load_data() -> pd.DataFrame:
     df = df_co.merge(df_tsr, on="ticker").merge(df_dc, on="ticker")
     df["label"] = df["name"] + " (" + df["ticker"] + ")"
     df["data_as_of"] = pd.to_datetime(df["data_as_of"])
+
+    def _dcr(r):
+        actual = r["actual_dividends_paid"]
+        adj = r["adjusted_dividend_capacity"]
+        if pd.isna(actual) or actual == 0 or pd.isna(adj):
+            return None
+        return round(adj / actual, 2)
+
+    df["dcr"] = df.apply(_dcr, axis=1)
     return df
 
 
@@ -241,6 +250,7 @@ with col_dc:
             "= Dividend Capacity",
             "= Adjusted Capacity (ex-buybacks)",
             "Actual Dividends Paid",
+            "Dividend Coverage Ratio",
         ],
         "Value": [
             fmt_m(row["operating_cash_flow"]),
@@ -256,6 +266,7 @@ with col_dc:
             fmt_m(row["dividend_capacity"]),
             fmt_m(row["adjusted_dividend_capacity"]),
             fmt_m(row["actual_dividends_paid"]),
+            f"{row['dcr']:.2f}x" if pd.notna(row["dcr"]) and row["dcr"] is not None else "N/A",
         ],
     }
 
@@ -286,12 +297,12 @@ st.caption("Click column headers to sort. Negative values are shown in red.")
 
 table_cols = [
     "ticker", "name", "sector", "tsr",
-    "dividend_capacity", "adjusted_dividend_capacity", "actual_dividends_paid",
+    "dividend_capacity", "adjusted_dividend_capacity", "actual_dividends_paid", "dcr",
 ]
 table_df = df[table_cols].copy()
 table_df.columns = [
     "Ticker", "Company", "Sector", "TSR (%)",
-    "Div Capacity ($M)", "Adj Capacity ($M)", "Actual Divs Paid ($M)",
+    "Div Capacity ($M)", "Adj Capacity ($M)", "Actual Divs Paid ($M)", "Div Coverage",
 ]
 
 def style_negatives(val):
@@ -310,6 +321,7 @@ styled_table = (
         "Div Capacity ($M)": "{:,.0f}",
         "Adj Capacity ($M)": "{:,.0f}",
         "Actual Divs Paid ($M)": "{:,.0f}",
+        "Div Coverage": lambda x: "N/A" if pd.isna(x) else f"{x:.2f}x",
     })
     .map(style_negatives, subset=numeric_cols)
 )
