@@ -1,0 +1,212 @@
+[
+  {
+    "ticker": "AAPL",
+    "name": "Apple Inc.",
+    "sector": "Technology",
+    "fiscal_year_end": "2025-09-27",
+    "data_as_of": "2025-09-27"
+  },
+  {
+    "ticker": "AMGN",
+    "name": "Amgen Inc.",
+    "sector": "Healthcare",
+    "fiscal_year_end": "2024-12-31",
+    "data_as_of": "2024-12-31"
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Amazon.com Inc.",
+    "sector": "Consumer Discretionary",
+    "fiscal_year_end": "2024-12-31",
+    "data_as_of": "2024-12-31"
+  },
+  {
+    "ticker": "AXP",
+    "name": "American Express Co.",
+    "sector": "Financials",
+    "fiscal_year_end": "2024-12-31",
+    "data_as_of": "2024-12-31"
+  },
+  {
+    "ticker": "BA",
+    "name": "Boeing Co.",
+    "sector": "Industrials",
+    "fiscal_year_end": "2024-12-31",
+    "data_as_of": "2024-12-31"
+  },
+  {
+    "ticker": "CAT",
+    "name": "Caterpillar Inc.",
+    "sector": "Industrials",
+    "fiscal_year_end": "2024-12-31",
+    "data_as_of": "2024-12-31"
+  },
+  {
+    "ticker": "CRM",
+    "name": "Salesforce Inc.",
+    "sector": "Technology",
+    "fiscal_year_end": "2025-01-31",
+    "data_as_of": "2025-01-31"
+  },
+  {
+    "ticker": "CSCO",
+    "name": "Cisco Systems Inc.",
+    "sector": "Technology",
+    "fiscal_year_end": "2025-07-26",
+    "data_as_of": "2025-07-26"
+  },
+  {
+    "ticker": "CVX",
+    "name": "Chevron Corp.",
+    "sector": "Energy",
+    "fiscal_year_end": "2024-12-31",
+    "data_as_of": "2024-12-31"
+  },
+  {
+    "ticker": "DIS",
+    "name": "Walt Disney Co.",
+    "sector": "Communication Services",
+    "fiscal_year_end": "2025-09-27",
+    "data_as_of": "2025-09-27"
+  },
+  {
+    "ticker": "DOW",
+    "name": "Dow Inc.",
+    "sector": "Materials",
+    "fiscal_year_end": "2024-12-31",
+    "data_as_of": "2024-12-31"
+  },
+  {
+    "ticker": "GS",
+    "name": "Goldman Sachs Group Inc.",
+    "sector": "Financials",
+    "fiscal_year_end": "2024-12-31",
+    "data_as_of": "2024-12-31"
+  },
+  {
+    "ticker": "HD",
+    "name": "Home Depot Inc.",
+    "sector": "Consumer Discretionary",
+    "fiscal_year_end": "2025-02-02",
+    "data_as_of": "2025-02-02"
+  },
+  {
+    "ticker": "HON",
+    "name": "Honeywell International Inc.",
+    "sector": "Industrials",
+    "fiscal_year_end": "2024-12-31",
+    "data_as_of": "2024-12-31"
+  },
+  {
+    "ticker": "IBM",
+    "name": "International Business Machines Corp.",
+    "sector": "Technology",
+    "fiscal_year_end": "2024-12-31",
+    "data_as_of": "2024-12-31"
+  },
+  {
+    "ticker": "JNJ",
+    "name": "Johnson & Johnson",
+    "sector": "Healthcare",
+    "fiscal_year_end": "2024-12-29",
+    "data_as_of": "2024-12-29"
+  },
+  {
+    "ticker": "JPM",
+    "name": "JPMorgan Chase & Co.",
+    "sector": "Financials",
+    "fiscal_year_end": "2024-12-31",
+    "data_as_of": "2024-12-31"
+  },
+  {
+    "ticker": "KO",
+    "name": "Coca-Cola Co.",
+    "sector": "Consumer Staples",
+    "fiscal_year_end": "2024-12-31",
+    "data_as_of": "2024-12-31"
+  },
+  {
+    "ticker": "MCD",
+    "name": "McDonald's Corp.",
+    "sector": "Consumer Discretionary",
+    "fiscal_year_end": "2024-12-31",
+    "data_as_of": "2024-12-31"
+  },
+  {
+    "ticker": "MMM",
+    "name": "3M Co.",
+    "sector": "Industrials",
+    "fiscal_year_end": "2024-12-31",
+    "data_as_of": "2024-12-31"
+  },
+  {
+    "ticker": "MRK",
+    "name": "Merck & Co. Inc.",
+    "sector": "Healthcare",
+    "fiscal_year_end": "2024-12-31",
+    "data_as_of": "2024-12-31"
+  },
+  {
+    "ticker": "MSFT",
+    "name": "Microsoft Corp.",
+    "sector": "Technology",
+    "fiscal_year_end": "2025-06-28",
+    "data_as_of": "2025-06-28"
+  },
+  {
+    "ticker": "NKE",
+    "name": "Nike Inc.",
+    "sector": "Consumer Discretionary",
+    "fiscal_year_end": "2025-05-31",
+    "data_as_of": "2025-05-31"
+  },
+  {
+    "ticker": "NVDA",
+    "name": "NVIDIA Corp.",
+    "sector": "Technology",
+    "fiscal_year_end": "2025-01-26",
+    "data_as_of": "2025-01-26"
+  },
+  {
+    "ticker": "PG",
+    "name": "Procter & Gamble Co.",
+    "sector": "Consumer Staples",
+    "fiscal_year_end": "2025-06-30",
+    "data_as_of": "2025-06-30"
+  },
+  {
+    "ticker": "TRV",
+    "name": "Travelers Companies Inc.",
+    "sector": "Financials",
+    "fiscal_year_end": "2024-12-31",
+    "data_as_of": "2024-12-31"
+  },
+  {
+    "ticker": "UNH",
+    "name": "UnitedHealth Group Inc.",
+    "sector": "Healthcare",
+    "fiscal_year_end": "2024-12-31",
+    "data_as_of": "2024-12-31"
+  },
+  {
+    "ticker": "V",
+    "name": "Visa Inc.",
+    "sector": "Financials",
+    "fiscal_year_end": "2025-09-30",
+    "data_as_of": "2025-09-30"
+  },
+  {
+    "ticker": "VZ",
+    "name": "Verizon Communications Inc.",
+    "sector": "Communication Services",
+    "fiscal_year_end": "2024-12-31",
+    "data_as_of": "2024-12-31"
+  },
+  {
+    "ticker": "WMT",
+    "name": "Walmart Inc.",
+    "sector": "Consumer Staples",
+    "fiscal_year_end": "2025-01-31",
+    "data_as_of": "2025-01-31"
+  }
+]

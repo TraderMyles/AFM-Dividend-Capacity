@@ -1,0 +1,212 @@
+[
+  {
+    "ticker": "AAPL",
+    "opening_price": 226.1,
+    "closing_price": 254.74,
+    "dividends_per_share": 1.02,
+    "tsr": 13.12
+  },
+  {
+    "ticker": "AMGN",
+    "opening_price": 283.45,
+    "closing_price": 264.73,
+    "dividends_per_share": 9.0,
+    "tsr": -3.43
+  },
+  {
+    "ticker": "AMZN",
+    "opening_price": 153.22,
+    "closing_price": 225.43,
+    "dividends_per_share": 0.0,
+    "tsr": 47.13
+  },
+  {
+    "ticker": "AXP",
+    "opening_price": 194.12,
+    "closing_price": 308.37,
+    "dividends_per_share": 2.8,
+    "tsr": 60.3
+  },
+  {
+    "ticker": "BA",
+    "opening_price": 244.15,
+    "closing_price": 176.22,
+    "dividends_per_share": 0.0,
+    "tsr": -27.82
+  },
+  {
+    "ticker": "CAT",
+    "opening_price": 306.23,
+    "closing_price": 360.45,
+    "dividends_per_share": 5.2,
+    "tsr": 19.4
+  },
+  {
+    "ticker": "CRM",
+    "opening_price": 221.34,
+    "closing_price": 327.12,
+    "dividends_per_share": 0.0,
+    "tsr": 47.79
+  },
+  {
+    "ticker": "CSCO",
+    "opening_price": 48.22,
+    "closing_price": 64.35,
+    "dividends_per_share": 1.6,
+    "tsr": 36.77
+  },
+  {
+    "ticker": "CVX",
+    "opening_price": 146.22,
+    "closing_price": 156.34,
+    "dividends_per_share": 6.52,
+    "tsr": 11.38
+  },
+  {
+    "ticker": "DIS",
+    "opening_price": 92.14,
+    "closing_price": 107.23,
+    "dividends_per_share": 0.45,
+    "tsr": 16.87
+  },
+  {
+    "ticker": "DOW",
+    "opening_price": 56.22,
+    "closing_price": 31.45,
+    "dividends_per_share": 2.8,
+    "tsr": -39.08
+  },
+  {
+    "ticker": "GS",
+    "opening_price": 371.23,
+    "closing_price": 572.15,
+    "dividends_per_share": 11.0,
+    "tsr": 57.09
+  },
+  {
+    "ticker": "HD",
+    "opening_price": 361.45,
+    "closing_price": 407.23,
+    "dividends_per_share": 9.0,
+    "tsr": 15.16
+  },
+  {
+    "ticker": "HON",
+    "opening_price": 204.32,
+    "closing_price": 228.15,
+    "dividends_per_share": 4.36,
+    "tsr": 13.8
+  },
+  {
+    "ticker": "IBM",
+    "opening_price": 163.22,
+    "closing_price": 231.45,
+    "dividends_per_share": 6.68,
+    "tsr": 45.9
+  },
+  {
+    "ticker": "JNJ",
+    "opening_price": 156.45,
+    "closing_price": 148.23,
+    "dividends_per_share": 4.76,
+    "tsr": -2.21
+  },
+  {
+    "ticker": "JPM",
+    "opening_price": 170.34,
+    "closing_price": 243.12,
+    "dividends_per_share": 5.0,
+    "tsr": 45.66
+  },
+  {
+    "ticker": "KO",
+    "opening_price": 59.22,
+    "closing_price": 63.45,
+    "dividends_per_share": 1.88,
+    "tsr": 10.32
+  },
+  {
+    "ticker": "MCD",
+    "opening_price": 296.34,
+    "closing_price": 290.12,
+    "dividends_per_share": 6.68,
+    "tsr": 0.16
+  },
+  {
+    "ticker": "MMM",
+    "opening_price": 95.45,
+    "closing_price": 138.23,
+    "dividends_per_share": 3.14,
+    "tsr": 48.11
+  },
+  {
+    "ticker": "MRK",
+    "opening_price": 124.22,
+    "closing_price": 95.34,
+    "dividends_per_share": 3.05,
+    "tsr": -20.79
+  },
+  {
+    "ticker": "MSFT",
+    "opening_price": 439.22,
+    "closing_price": 497.15,
+    "dividends_per_share": 3.32,
+    "tsr": 13.95
+  },
+  {
+    "ticker": "NKE",
+    "opening_price": 94.34,
+    "closing_price": 76.23,
+    "dividends_per_share": 1.4,
+    "tsr": -17.71
+  },
+  {
+    "ticker": "NVDA",
+    "opening_price": 49.26,
+    "closing_price": 137.34,
+    "dividends_per_share": 0.04,
+    "tsr": 178.89
+  },
+  {
+    "ticker": "PG",
+    "opening_price": 153.45,
+    "closing_price": 165.23,
+    "dividends_per_share": 4.16,
+    "tsr": 10.39
+  },
+  {
+    "ticker": "TRV",
+    "opening_price": 207.34,
+    "closing_price": 272.15,
+    "dividends_per_share": 4.0,
+    "tsr": 33.19
+  },
+  {
+    "ticker": "UNH",
+    "opening_price": 528.34,
+    "closing_price": 491.23,
+    "dividends_per_share": 7.52,
+    "tsr": -5.6
+  },
+  {
+    "ticker": "V",
+    "opening_price": 280.45,
+    "closing_price": 366.23,
+    "dividends_per_share": 2.36,
+    "tsr": 31.43
+  },
+  {
+    "ticker": "VZ",
+    "opening_price": 40.45,
+    "closing_price": 42.23,
+    "dividends_per_share": 2.66,
+    "tsr": 10.98
+  },
+  {
+    "ticker": "WMT",
+    "opening_price": 57.23,
+    "closing_price": 96.45,
+    "dividends_per_share": 0.83,
+    "tsr": 69.98
+  }
+]
